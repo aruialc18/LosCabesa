@@ -7842,7 +7842,8 @@ html {
   scroll-padding-top: calc(4.5rem - 1px); }
 
 .page-section {
-  padding: 6rem 0; }
+  padding: 6rem 0;
+  height: 100%; }
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem; }
@@ -8000,6 +8001,10 @@ html {
     .portfolio-modal .portfolio-modal-title {
       font-size: 3rem;
       line-height: 2.5rem; } }
+
+.logo-login {
+  height: 50%;
+  width: 50%; }
 
 .footer {
   padding-top: 1rem;
