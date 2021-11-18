@@ -10,7 +10,7 @@
                      <div class="col-sm-12 col-md-6 col-lg-6 h-100 text-center">
                         <img class="col-sm-12 logo-login" src="/assets/truenti/rayo2.png">
                      </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 h-100 text-center" style="padding: 10px">
+                    <div class="col-sm-12 col-md-6 col-lg-6 h-100 text-center" >
                        <h1>Inicio de Sesión</h1>
                         <form class="form-login">
                             <input type="text" name="user" placeholder="Usuario"><br><br>
