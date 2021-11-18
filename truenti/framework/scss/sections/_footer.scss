@@ -3,19 +3,20 @@
 // 
 
 .footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: $secondary;
     color: $white;
+    
 }
 .logo{
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 160px;
 }
-
 
 .copyright {
     background-color: darken($secondary, 10%);
 }
+
 
 
