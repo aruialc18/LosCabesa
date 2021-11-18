@@ -7,11 +7,11 @@
                 </div>
                 <!-- Footer Quienes Somos-->
                 
-                    <div  class="col-lg-4 mb-5 mb-lg-0 prueba">
+                    <div  class="col-lg-4 mb-5 mb-lg-0 paddingss">
                         <a href="">¿Quienes somos?</a>
                     </div>
                     <!-- Footer Unete-->
-                    <div class="col-lg-4 prueba">
+                    <div class="col-lg-4 paddingss">
                         <a href="">Únete</a>
                     </div>
                 
