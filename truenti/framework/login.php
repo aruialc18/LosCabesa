@@ -5,7 +5,7 @@
 </head>
 <body>
     
-            <div class="container-fluid page-section portfolio" style="background-image: url(/assets/truenti/fondo2.png)">
+            <div class="container-fluid page-section portfolio" style="background-image: url(/assets/truenti/fondo2.png);    " >
                 <div class="row justify-content-center">
                      <div class="col-sm-12 col-md-6 col-lg-6 h-100 text-center">
                         <img class="col-sm-12 logo-login" src="/assets/truenti/rayo2.png">
@@ -19,10 +19,11 @@
                          </form>
                          <h>¿Aún no tienes cuenta? <a href="register.php">Regístrate</a></h2>
                      </div>
+                     
                 </div>
              </div>
-     
+             <?php include("includes/footer.php");?>
 
-<?php include("includes/footer.php");?>
+
 </body>
 </html>
