@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg bg-black text-uppercase fixed-top" id="mainNav">
     
         <a href="index.php"><img src="assets/truenti/logo3.png" width="40%" height="50%"></a>
         
