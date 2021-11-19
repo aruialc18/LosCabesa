@@ -3,30 +3,24 @@
 //
 
 .portfolio {
-  .portfolio-item {
-    cursor: pointer;
-    position: relative;
-    display: block;
-    max-width: 25rem;
-    border-radius: $border-radius;
+  height: 90vh;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+  a {
+    color: $secondary;
+  }
+  .logo-login {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
     overflow: hidden;
-
-    .portfolio-item-caption {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transition: $transition-base;
-      opacity: 0;
-      background-color: fade-out($primary, 0.1);
-
-      &:hover {
-        opacity: 1;
-      }
-
-      .portfolio-item-caption-content {
-        font-size: 1.5rem;
-      }
-    }
+  }
+  .form-login {
+    overflow: hidden;
   }
 }
 
@@ -47,8 +41,4 @@
       line-height: 2.5rem;
     }
   }
-}
-.logo-login {
-  height: 50%;
-  width: 50%;
 }

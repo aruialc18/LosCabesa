@@ -8,12 +8,12 @@
 			$CURRENT_PAGE = "About"; 
 			$PAGE_TITLE = "About Us";
 			break;
-		case "/contact.php":
-			$CURRENT_PAGE = "Contact"; 
-			$PAGE_TITLE = "Contact Us";
+		case "/login.php":
+			$CURRENT_PAGE = "Login"; 
+			$PAGE_TITLE = "Truenti";
 			break;
 		default:
-			$CURRENT_PAGE = "Index";
+			$CURRENT_PAGE = "Login";
 			$PAGE_TITLE = "Welcome to my homepage!";
 	}
 ?>
