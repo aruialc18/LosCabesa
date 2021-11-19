@@ -3,8 +3,8 @@
 // 
 
 #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
     font-family: $headings-font-family;
     font-weight: $headings-font-weight;
 
@@ -44,8 +44,8 @@
 
 @include media-breakpoint-up(lg) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
         transition: padding-top 0.3s, padding-bottom 0.3s;
 
         .navbar-brand {

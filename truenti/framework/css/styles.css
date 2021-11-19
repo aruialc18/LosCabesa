@@ -7839,7 +7839,7 @@ textarea.form-control-lg {
 
 html {
   height: 100%;
-  scroll-padding-top: calc(4.5rem - 1px); }
+  scroll-padding-top: calc(2rem - 1px); }
 
 .page-section {
   padding: 6rem 0;
@@ -7891,8 +7891,8 @@ html {
   align-items: center; }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   font-family: "Work Sans";
   font-weight: 700; }
   #mainNav .navbar-brand {
@@ -7913,8 +7913,8 @@ html {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
