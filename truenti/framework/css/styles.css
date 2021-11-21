@@ -7845,14 +7845,12 @@ html {
   height: 90vh;
   display: flex;
   flex-direction: column;
-  padding-top: 10%; }
+  padding-top: 10%;
+  padding-left: 10%; }
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem; }
   @media (max-width: 767px) {
-    .page-section .page-section {
-      display: block; } }
-  @media (min-width: 768px) {
     .page-section .page-section {
       display: block; } }
 
