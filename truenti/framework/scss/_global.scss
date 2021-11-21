@@ -14,19 +14,25 @@ html {
 
 // Styling for page sections
 .page-section {
-  padding: 6rem 0;
-  height: 100%;
+  height: 90vh;
   display: flex;
+  flex-direction: column;
+  padding-top: 10%;
 
   .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem;
   }
 
-  @include media-breakpoint-up(lg) {
-    .page-section-heading {
-      font-size: 3rem;
-      line-height: 2.5rem;
+  @media (max-width: 767px) {
+    .page-section {
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .page-section {
+      display: block;
     }
   }
 }
