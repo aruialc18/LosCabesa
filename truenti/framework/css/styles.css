@@ -7844,8 +7844,7 @@ html {
 .page-section {
   padding: 6rem 0;
   height: 100%;
-  display: flex;
-  flex-direction: column; }
+  display: flex; }
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem; }
@@ -7975,17 +7974,16 @@ html {
 .portfolio {
   height: 90vh;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center; }
-  .portfolio .logo-login {
-    flex-direction: row;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    overflow: hidden; }
-  .portfolio a {
-    color: #ea2176; }
+  display: flex; }
+
+.logo-login {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.form-login a {
+  color: #ea2176; }
 
 .portfolio-modal .btn-close {
   color: #1ed763;

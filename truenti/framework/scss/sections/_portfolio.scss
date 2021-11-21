@@ -6,16 +6,15 @@
   height: 90vh;
   margin: 0;
   display: flex;
+}
 
-  justify-content: center;
-  align-content: center;
-  .logo-login {
-    flex-direction: row;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
+.logo-login {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.form-login {
   a {
     color: $secondary;
   }
