@@ -2,6 +2,10 @@
 // Navbar
 // 
 
+.logo{
+    padding-left: 20px;
+}
+
 #mainNav {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
@@ -16,6 +20,7 @@
         margin-top: 1rem;
 
         li.nav-item {
+            border-radius: 50%;
             a.nav-link a.dropdown-item {
                 color: $white;
 

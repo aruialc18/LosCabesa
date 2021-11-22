@@ -1,13 +1,12 @@
 <nav class="navbar navbar-expand-lg bg-black text-uppercase fixed-top" id="mainNav">
     
-        <a href="index.php"><img src="assets/truenti/logo3.png" width="40%" height="50%"></a>
+        <a href="index.php"><img class="logo" src="assets/truenti/logo3.png" width="40%" height="50%"></a>
         
         <div class="collapse navbar-collapse d-flex" id="navbarResponsive">
 
             <ul class="navbar-nav d-flex justify-content-around flex-grow-1">
                 <li class="nav-item">
-                    <a class="nav-link py-3 px-0 px-lg-3"  dropdown-toggle href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link py-3 px-0 px-lg-3" href="#" role="button">
                         Inicio
                     </a>
                 </li>
@@ -24,7 +23,7 @@
 
                 <li class="nav-item"><a
                         class="nav-link py-3 px-0 px-lg-3 rounded"
-                        href="index.php">Cerrar Sesion</a></li>
+                        href="index.php"><button type="button" class="btn btn-primary" >Cerrar Sesion</button></a></li>
             </ul>
         </div>
   
