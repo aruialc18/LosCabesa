@@ -8005,7 +8005,9 @@ html {
 
 .footer {
   background-color: black;
-  color: #fff; }
+  color: #fff;
+  font-weight: 700;
+  font-family: "Work Sans"; }
 
 .logo {
   width: 200px;

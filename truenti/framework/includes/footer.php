@@ -8,11 +8,11 @@
                 <!-- Footer Quienes Somos-->
                 
                     <div  class="col-lg-4 mb-5 mb-lg-0 paddingss">
-                        <a href="">¿Quienes somos?</a>
+                        <a href="">¿QUIÉNES SOMOS?</a>
                     </div>
                     <!-- Footer Unete-->
                     <div class="col-lg-4 paddingss">
-                        <a href="">Únete</a>
+                        <a href="">ÚNETE</a>
                     </div>
                 
             </div>

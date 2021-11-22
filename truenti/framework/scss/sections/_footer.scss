@@ -5,7 +5,8 @@
 .footer {
   background-color: black;
   color: $white;
- 
+  font-weight: $headings-font-weight;
+  font-family: $headings-font-family;
 }
 .logo {
   width: 200px;
