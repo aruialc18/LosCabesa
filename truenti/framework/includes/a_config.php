@@ -14,6 +14,6 @@
 			break;
 		default:
 			$CURRENT_PAGE = "Login";
-			$PAGE_TITLE = "Welcome to my homepage!";
+			$PAGE_TITLE = "Truenti";
 	}
 ?>
