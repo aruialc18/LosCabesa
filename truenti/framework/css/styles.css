@@ -7841,6 +7841,11 @@ html {
   height: 100%;
   scroll-padding-top: calc(2rem - 1px); }
 
+.imguser {
+  width: 200px;
+  height: 200px;
+  border-radius: 5em; }
+
 .page-section {
   height: 90vh;
   display: flex;
@@ -7850,9 +7855,12 @@ html {
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem; }
-  @media (max-width: 767px) {
-    .page-section .page-section {
-      display: block; } }
+
+@media (max-width: 600px) {
+  .page-section {
+    padding-top: 0%;
+    padding-left: 0%;
+    text-align: center; } }
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
@@ -8016,3 +8024,13 @@ html {
 
 .copyright {
   background-color: black; }
+
+@media (max-width: 600px) {
+  .logo {
+    visibility: hidden;
+    display: none; }
+  img {
+    display: none; }
+  .footer {
+    display: flex;
+    flex-direction: column; } }

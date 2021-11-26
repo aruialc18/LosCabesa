@@ -18,3 +18,19 @@
 .copyright {
   background-color: black;
 }
+@media (max-width: 600px) {
+  
+  .logo {
+    visibility:hidden;
+    display: none;
+}
+img {
+    display: none;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  
+}
+    
+}
