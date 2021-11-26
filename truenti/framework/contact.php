@@ -13,7 +13,7 @@
 <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contáctanos</h2>
+            <h2 class="page-section-heading text-uppercase  mb-0">Contáctanos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
