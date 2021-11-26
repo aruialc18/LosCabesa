@@ -13,7 +13,7 @@
 <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contáctanos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -35,23 +35,23 @@
                         <div class="form-floating mb-3">
                             <input class="form-control" id="name" type="text" placeholder="Enter your name..."
                                 data-sb-validations="required" />
-                            <label for="name">Full name</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <label for="name">Nombre Completo</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Un nombre es necesario</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com"
                                 data-sb-validations="required,email" />
-                            <label for="email">Email address</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Un email es necesario</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">EL email no es valido</div>
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
                                 data-sb-validations="required" />
-                            <label for="phone">Phone number</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            <label for="phone">Nº Teléfono</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Un número de teléfono es necesario
                             </div>
                         </div>
                         <!-- Message input-->
@@ -59,8 +59,8 @@
                             <textarea class="form-control" id="message" type="text"
                                 placeholder="Enter your message here..." style="height: 10rem"
                                 data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            <label for="message">Mensaje</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Un mensaje es necesario
                             </div>
                         </div>
                         <!-- Submit success message-->
