@@ -10,7 +10,7 @@
                      <div class="col-sm-12 col-md-6">
                         <img class=" logo-login" src="/assets/truenti/rayo2.png">
                      </div>
-                    <div class="col-sm-12  col-lg-6">
+                    <div class="col-sm-12  col-md-6">
                        <h1>Registro</h1>
                         <form class="form-login">
                             <input type="text" name="user" class="form-control-sm" placeholder="Usuario"><br><br>
