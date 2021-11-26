@@ -25,14 +25,15 @@ html {
     line-height: 2rem;
   }
 
-  @media (max-width: 767px) {
-    .page-section {
-      display: block;
-    }
-  }
-
   @include media-breakpoint-up(md) {
     .page-section {
     }
+  }
+}
+@media (max-width: 600px) {
+  .page-section {
+    padding-top: 0%;
+    padding-left: 0%;
+    text-align: center;
   }
 }
