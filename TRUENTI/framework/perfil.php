@@ -44,15 +44,42 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-6">
-                
-            </div>
-            
-            <div class="col-sm-6">
+<div class="row">
+        <div class="row row-cols-md-4 g-4">
 
-            </div>
-        </div>
-    </div>
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+  
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+  
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+  
+  <div >
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+  
+  <div>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+  </div>
+
+</div>
+</div>
 </body>
 </html>
