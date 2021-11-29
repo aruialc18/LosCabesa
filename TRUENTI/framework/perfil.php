@@ -9,6 +9,7 @@
     
 </head>
 <body>
+<?php include("includes/navigation.php");?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4"><img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
@@ -45,7 +46,7 @@
         </div>
 
 <div class="row">
-        <div class="row row-cols-md-4 g-4">
+        <div class="row row-cols-md-4 g-4 align-items-center">
 
   <div>
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
