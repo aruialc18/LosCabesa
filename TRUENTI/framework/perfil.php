@@ -10,9 +10,9 @@
 </head>
 <body>
 <?php include("includes/navigation.php");?>
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: 5%;">
         <div class="row">
-            <div class="col-sm-4"><img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            <div class="col-sm-4 text-center"><img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
             <br>
             <p>Nombre de usuario<p>
             <p>XP:</p>
@@ -44,9 +44,9 @@
                 </div>
             </div>
         </div>
+    </div>
 
-<div class="row">
-        <div class="row row-cols-md-4 g-4 align-items-center">
+<div class="container-fluid row row-cols-md-4 g-4 text-center" style="margin-top: 25px;">
 
   <div>
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
@@ -80,7 +80,6 @@
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
 
-</div>
 </div>
 </body>
 </html>
