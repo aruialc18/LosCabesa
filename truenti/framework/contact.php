@@ -21,7 +21,7 @@
 
             <br><br><br>
             <h2 class="page-section-heading text-uppercase  mb-0 text-align: left">Formulario de contacto</h2>
-            
+            <br><br>
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
@@ -50,7 +50,7 @@
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                            <input class="form-control" id="phone" type="tel" placeholder="644567465"
                                 data-sb-validations="required" />
                             <label for="phone">Nº Teléfono</label>
                             <div class="invalid-feedback" data-sb-feedback="phone:required">Un número de teléfono es necesario
