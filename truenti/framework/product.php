@@ -9,7 +9,7 @@
 <?php include("includes/navigation.php");?>
 <main>
     <section class="page-product" id="product">
-        <div class="container-fluid">
+        <div class="container-fluid separatop">
             <div class="row">
                 <div class="dropdown text-center">
                     <button type="button" class="btn btn-white dropdown-toggle " data-bs-toggle="dropdown" style="border: 1px solid">
