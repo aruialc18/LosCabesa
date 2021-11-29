@@ -7846,6 +7846,9 @@ html {
   height: 200px;
   border-radius: 5em; }
 
+.contact {
+  padding-top: 10%; }
+
 .page-section {
   height: 90vh;
   display: flex;
