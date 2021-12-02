@@ -46,7 +46,7 @@
         </div>
     </div>
 
-<div class="container-fluid row row-cols-md-4 g-4 text-center" style="margin-top: 25px;">
+<div class="container-fluid row row-cols-md-4 g-4 text-center separatop" >
 
   <div>
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
@@ -64,19 +64,19 @@
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
   
-  <div>
+  <div class="separatop">
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
   
-  <div>
+  <div class="separatop">
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
   
-  <div >
+  <div class="separatop">
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
   
-  <div>
+  <div class="separatop">
       <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
   </div>
 
