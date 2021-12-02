@@ -44,42 +44,36 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
-<div class="container-fluid row row-cols-md-4 g-4 text-center separatop" >
-
-  <div>
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-
-  <div>
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-
-  <div>
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-
-  <div>
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-  
-  <div class="separatop">
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-  
-  <div class="separatop">
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-  
-  <div class="separatop">
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-  
-  <div class="separatop">
-      <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
-  </div>
-
+    <div class="row separatop text-center" >
+       
+            <div class="col-sm-3">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" class="imguser">
+            </div>
+       
+     </div>
 </div>
 </body>
 </html>
