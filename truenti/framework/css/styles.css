@@ -7842,9 +7842,9 @@ html {
   scroll-padding-top: calc(2rem - 1px); }
 
 .imguser {
-  width: 15em;
-  height: 15em;
-  border-radius: 0.5em; }
+  width: 10em;
+  height: 8em;
+  border-radius: 2em; }
 
 .contact {
   padding-top: 10vh; }
