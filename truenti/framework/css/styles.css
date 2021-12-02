@@ -7844,6 +7844,10 @@ html {
 .imguser {
   border-radius: 2em; }
 
+.imgperfil {
+  max-width: 15em;
+  border-radius: 0.5em; }
+
 .contact {
   padding-top: 10vh; }
 

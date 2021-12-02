@@ -12,7 +12,7 @@
 <?php include("includes/navigation.php");?>
     <div class="container-fluid separatop">
         <div class="row">
-            <div class="col-sm-4 text-center"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+            <div class="col-sm-4 text-center"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             <br>
             <p>Nombre de usuario<p>
             <p>XP:</p>
@@ -46,30 +46,30 @@
         </div>
     
 
-        <div class="row separatop text-center">
-            <div class="col-sm-3">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
-            </div>
-            <div class="col-sm-3">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
-            </div>
-            <div class="col-sm-3">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
-            </div>
-            <div class="col-sm-3">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+        <div class="row text-center">
+            <div class="col-sm-3 separatop">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imguser">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
+            </div>
+            <div class="col-sm-3 separatop">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgperfil">
             </div>
         </div>
     </div>
