@@ -7844,7 +7844,11 @@ html {
 .imguser {
   border-radius: 2em; }
 
-.imgperfil {
+.imgsperfil {
+  max-width: 15em;
+  border-radius: 0.5em; }
+
+.fotoperfil {
   max-width: 15em;
   border-radius: 0.5em; }
 
