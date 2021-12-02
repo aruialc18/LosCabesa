@@ -29,15 +29,15 @@
           <textarea rows="4" cols="130" placeholder="Usuario0239: Me gusta mucho el deporte jeje" readonly></textarea>
     </div>       
   </div>
+
 <br>
 
   <div class="row separatop">
     <div class="col-2"> 
-
           <img class="img-fluid imguser" src="assets/truenti/user.jpg" />
     </div>
     <div class="col-10 d-flex align-items-center"> 
-    <textarea rows="4" cols="130" placeholder="Usuario023u4ri023: Me gusta mucho tu mujer @Usuario0239" readonly></textarea>
+    <textarea rows="4" cols="130" placeholder="Usuario023u4ri023: Hoy hice 43KM a 3,52Km/h, un record para mi!!!! " readonly></textarea>
         
     </div>       
   </div>
