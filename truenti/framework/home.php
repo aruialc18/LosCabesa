@@ -6,10 +6,18 @@
 </head>
 <body>
 <?php include("includes/navigation.php");?>
- <div>
-   <div>
-   <img class="imguser" src="assets/truenti/user.jpg" />
-     
+ <div class="container-fluid separatop d-flex" >
+   <div class="row">
+     <div class="">
+        
+        <form action="">
+        <img class="imguser" src="assets/truenti/user.jpg" />
+          <textarea rows="4" cols="80" placeholder="Escribe aqui tus progresos..."></textarea>
+        </form>
+      
+      <div>
+        
+     </div>
     <div>
 
     </div>
