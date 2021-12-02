@@ -7,7 +7,7 @@
 
     <div class="collapse navbar-collapse" id="mynavbar">
     <ul class="navbar-nav d-flex align-items-center justify-content-around flex-grow-1">
-                <li class="nav-item"><a class="nav-link" href="index.php">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="home.php">Inicio</a></li>
         
                 <li class="nav-item"><a class="nav-link" 
                 href="contact.php">¿Quienes somos?</a></li>
