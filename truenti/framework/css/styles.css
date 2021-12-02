@@ -7842,9 +7842,7 @@ html {
   scroll-padding-top: calc(2rem - 1px); }
 
 .imguser {
-  width: 200px;
-  height: 200px;
-  border-radius: 5em; }
+  border-radius: 2em; }
 
 .contact {
   padding-top: 10vh; }
@@ -8026,10 +8024,14 @@ html {
   height: 10vh; }
 
 .paddingss {
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  color: #fff; }
 
 .copyright {
   background-color: black; }
+
+a {
+  color: #fff; }
 
 @media (max-width: 600px) {
   .logo {
@@ -8039,4 +8041,5 @@ html {
     display: none; }
   .footer {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    color: #fff; } }
