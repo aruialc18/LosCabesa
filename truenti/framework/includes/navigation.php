@@ -13,7 +13,10 @@
                 href="contact.php">¿Quienes somos?</a></li>
 
                 <li class="nav-item"><a class="nav-link"
-                href="product.php">Compra/venta</a></li>
+                href="product.php">Compra Productos</a></li>
+
+                <li class="nav-item"><a class="nav-link"
+                href="services.php">Servicios</a></li>
 
                 <li class="nav-item"><a class="nav-link "
                 href="perfil.php">Perfil</a></li>
