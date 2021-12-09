@@ -17,7 +17,7 @@
     font-weight: $headings-font-weight;
 
     .navbar-brand {
-        color: $white;
+        color: $white !important;
     }
 
     .navbar-nav {
@@ -26,19 +26,19 @@
         li.nav-item {
             
             a.nav-link a.dropdown-item {
-                color: $white;
+                color: $white !important;
 
                 &:hover {
-                    color: $primary;
+                    color: $primary !important;
                 }
 
                 &:active,
                 &:focus {
-                    color: $white;
+                    color: $white !important;
                 }
 
                 &.active {
-                    color: $primary;
+                    color: $primary !important;
                 }
             }
         }
@@ -67,14 +67,14 @@
         }
 
         .navbar-nav>li.nav-item>a.nav-link.active {
-            color: $white;
-            background: $primary;
+            color: $white !important;
+            background: $primary !important;
 
             &:active,
             &:focus,
             &:hover {
-                color: $white;
-                background: $primary;
+                color: $white !important;
+                background: $primary !important;
             }
         }
     }
