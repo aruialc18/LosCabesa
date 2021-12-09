@@ -17,7 +17,7 @@
 
                 <li class="nav-item"><a class="nav-link " href="perfil.php">Perfil</a></li>
 
-                <li class="nav-item"><a class="nav-link " href="login.php"><button type="button"
+                <li class="nav-item"><a class="nav-link " href="index.php"><button type="button"
                             class="btn btn-primary">Cerrar Sesion</button></a></li>
             </ul>
         </div>
