@@ -18,7 +18,7 @@
                             <input type="text" name="user" class="form-control-sm" placeholder="Correo Electrónico"><br><br>
                             <input type="password" name="pass" class="form-control-sm" placeholder="Contraseña"><br><br>
                             <input class="bg-secondary form-control-sm" type="submit" name="entrar" value="Crear Cuenta"><br><br>
-                            <h>¿Ya tienes cuenta? <a href="login.php">Inicia Sesión</a></h2>
+                            <h>¿Ya tienes cuenta? <a href="index.php">Inicia Sesión</a></h2>
                          </form>
                          
                      </div>
