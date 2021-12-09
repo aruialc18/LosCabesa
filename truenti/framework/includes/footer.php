@@ -8,11 +8,11 @@
                 <!-- Footer Quienes Somos-->
                 
                     <div  class=" col-sm-0 col-lg-4   paddingss">
-                        <a href="">¿QUIÉNES SOMOS?</a>
+                        <a href="contact.php">¿QUIÉNES SOMOS?</a>
                     </div>
                     <!-- Footer Unete-->
                     <div class="col-sm-0 col-lg-4 paddingss">
-                        <a href="">ÚNETE</a>
+                        <a href="register.php">ÚNETE</a>
                     </div>
                     
             </div>
