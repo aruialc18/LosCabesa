@@ -1,0 +1,90 @@
+// 
+// Navbar
+// 
+
+.logo{
+    padding-left: 20px;
+}
+
+@media (min-width: 600px) {
+    
+  }
+  
+#mainNav {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+
+    .navbar-brand {
+        color: $white !important;
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+
+        li.nav-item {
+            
+            a.nav-link a.dropdown-item {
+                color: $white !important;
+
+                &:hover {
+                    color: $primary !important;
+                }
+
+                &:active,
+                &:focus {
+                    color: $white !important;
+                }
+
+                &.active {
+                    color: $primary !important;
+                }
+            }
+        }
+    }
+
+    .navbar-toggler {
+        font-size: 80%;
+        padding: 0.8rem;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    #mainNav {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+
+        .navbar-brand {
+            font-size: 1.75em;
+            transition: font-size 0.3s;
+        }
+
+        .navbar-nav {
+            margin-top: 0;
+        }
+
+        .navbar-nav>li.nav-item>a.nav-link.active {
+            color: $white !important;
+            background: $primary !important;
+
+            &:active,
+            &:focus,
+            &:hover {
+                color: $white !important;
+                background: $primary !important;
+            }
+        }
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        .navbar-brand {
+            font-size: 1em;
+        }
+    }
+}

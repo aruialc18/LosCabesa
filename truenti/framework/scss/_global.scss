@@ -1,0 +1,54 @@
+//
+// Global
+//
+
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+//
+// https://caniuse.com/?search=scroll-padding
+
+html {
+  height: 100%;
+  scroll-padding-top: calc(#{$navbar-height} - 1px);
+}
+.imguser {
+  border-radius: 2em;
+}
+.imgsperfil{
+  max-width: 15em;
+  border-radius: 0.5em;
+}
+.fotoperfil{
+  max-width: 15em;
+  border-radius: 0.5em;
+}
+
+
+.contact {
+  padding-top: 10vh;
+}
+
+.separatop {
+  margin-top: $navbar-height + 3rem;
+}
+
+// Styling for page sections
+.page-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-left: 10%;
+
+  .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .page-section {
+    padding-top: 0%;
+    padding-left: 0%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,41 @@
+//
+// Footer
+//
+
+
+.footer {
+  background-color: black;
+  color: $white;
+  font-weight: $headings-font-weight;
+  font-family: $headings-font-family;
+}
+.logo {
+  width: 200px;
+  height: 10vh;
+}
+.paddingss {
+  padding-top: 2rem;
+  color: $white;
+}
+.copyright {
+  background-color: black;
+}
+
+a{
+  color: $white;
+}
+@media (max-width: 600px) {
+  
+  .logo {
+    visibility:hidden;
+    display: none;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  
+}
+    
+}
