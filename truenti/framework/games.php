@@ -8,7 +8,7 @@
 
 <?php include("includes/navigation.php");?>
 <main>
-<div class="container-fluid separatop">
+<div class="container-fluid juegos separatop">
     <div class="page-juegos">
     <h1>Truenti Games</h1>
     </div>

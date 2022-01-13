@@ -7987,6 +7987,7 @@ html {
     color: #1ed763; }
 
 .juegos {
+  color: transparent !important;
   margin-top: 80px; }
   .juegos img {
     height: 400px;
