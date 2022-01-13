@@ -12,7 +12,7 @@
 <?php include("includes/navigation.php");?>
     <div class="container-fluid separatop">
         <div class="row">
-            <div class="col-sm-4 text-center"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+            <div class="col-sm-4 text-center"><img src="../assets/perfil/boxeo1.jpg" class="imgsperfil">
             <br>
             <p>Nombre de usuario<p>
             <p>XP:</p>
@@ -48,28 +48,28 @@
 
         <div class="row text-center">
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo2.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo3.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo4.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo5.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo6.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo7.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo8.jpg" class="imgsperfil">
             </div>
             <div class="col-sm-3 separatop">
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="imgsperfil">
+                <img src="../assets/perfil/boxeo9.jpg" class="imgsperfil">
             </div>
         </div>
     </div>
