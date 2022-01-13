@@ -9,7 +9,7 @@
             <div class="container-fluid page-section  " style="background-image: url(/assets/truenti/fondo2.png); " >
                 <div class="row">
                      <div class="col-sm-12 col-md-6">
-                        <img class=" logo-login" src="/assets/truenti/rayo2.png">
+                        <img class=" logo-login img-fluid" src="/assets/truenti/rayo2.png">
                      </div>
                     <div class="col-sm-12  col-lg-6">
                        <h1>Inicio de Sesión</h1>
