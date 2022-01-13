@@ -12,7 +12,8 @@
     <main>
         <!-- Contact Section-->
         <section>
-        <div class="container-fluid separatop ">
+        <div class="container container-fluid separatop  ">
+       
            <h1> AVISO LEGAL Y CONDICIONES GENERALES DE USO</h1>
           
           <h2>  I. INFORMACIÓN GENERAL</h2>
