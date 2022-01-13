@@ -12,9 +12,9 @@
     <div class="page-juegos">
     <h1>Truenti Games</h1>
     </div>
-    <div class="container-fluid separatop">
+    <div class="container-fluid juegos">
         <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
                 <div class="card" style="width:400px">
                     <h2>María Sist</h2>
                     <img class="card-img-top" src="../assets/recursosjuegos/miniaturacristobal.png" alt="Card image" style="width:100%">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
                 <div class="card" style="width:400px">
                     <h2>Juego Pablo</h2>
                     <img class="card-img-top" src="../assets/recursosjuegos/miniaturapablo.png" alt="Card image" style="width:100%">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
                 <div class="card" style="width:400px">
                     <h2>Juego Antonio</h2>
                     <img class="card-img-top" src="../assets/recursosjuegos/miniaturaantonio.png" alt="Card image" style="width:100%">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
                 <div class="card" style="width:400px">
                     <h2>Juego Adri</h2>
                     <img class="card-img-top" src="../assets/recursosjuegos/miniaturaadri.png" alt="Card image" style="width:100%">

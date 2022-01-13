@@ -7975,6 +7975,7 @@ html {
   color: #6c757d; }
 
 html {
+  background-image: url("../assets/truenti/fondo2.png");
   height: 100%;
   scroll-padding-top: calc(2rem - 1px); }
 
@@ -7984,6 +7985,12 @@ html {
   text-align: center; }
   .page-juegos h1, .page-juegos .h1 {
     color: #1ed763; }
+
+.juegos {
+  margin-top: 80px; }
+  .juegos img {
+    height: 400px;
+    width: 500px; }
 
 .masthead {
   padding-top: calc(1rem + 54px);
