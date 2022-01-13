@@ -1,19 +1,22 @@
 html {
-  background-image: url("../assets/truenti/fondo2.png");
   height: 100%;
   scroll-padding-top: calc(#{$navbar-height} - 1px);
 }
-
+.fondo {
+  background-image: url("../assets/truenti/fondo2.png");
+}
 .page-juegos {
-  h1 {
-    color: $primary;
-  }
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+.card {
+  width: 400px;
+  .card-img-top {
+    width: 100%;
+  }
+}
 .juegos {
-  color: transparent !important;
   margin-top: 80px;
   img {
     height: 400px;

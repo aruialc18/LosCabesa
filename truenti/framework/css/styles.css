@@ -7975,19 +7975,23 @@ html {
   color: #6c757d; }
 
 html {
-  background-image: url("../assets/truenti/fondo2.png");
   height: 100%;
   scroll-padding-top: calc(2rem - 1px); }
+
+.fondo {
+  background-image: url("../assets/truenti/fondo2.png"); }
 
 .page-juegos {
   display: flex;
   flex-direction: column;
   text-align: center; }
-  .page-juegos h1, .page-juegos .h1 {
-    color: #1ed763; }
+
+.card {
+  width: 400px; }
+  .card .card-img-top {
+    width: 100%; }
 
 .juegos {
-  color: transparent !important;
   margin-top: 80px; }
   .juegos img {
     height: 400px;
@@ -8042,7 +8046,6 @@ html {
 
 .footer {
   background-color: black;
-  color: #fff;
   font-weight: 700;
   font-family: "Work Sans"; }
 
@@ -8051,8 +8054,7 @@ html {
   height: 10vh; }
 
 .paddingss {
-  padding-top: 2rem;
-  color: #fff; }
+  padding-top: 2rem; }
 
 .copyright {
   background-color: black; }
@@ -8066,5 +8068,4 @@ a {
     display: none; }
   .footer {
     display: flex;
-    flex-direction: column;
-    color: #fff; } }
+    flex-direction: column; } }

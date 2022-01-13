@@ -2,10 +2,8 @@
 // Footer
 //
 
-
 .footer {
   background-color: black;
-  color: $white;
   font-weight: $headings-font-weight;
   font-family: $headings-font-family;
 }
@@ -15,27 +13,22 @@
 }
 .paddingss {
   padding-top: 2rem;
-  color: $white;
 }
 .copyright {
   background-color: black;
 }
 
-a{
+a {
   color: $white;
 }
 @media (max-width: 600px) {
-  
   .logo {
-    visibility:hidden;
+    visibility: hidden;
     display: none;
-}
+  }
 
-.footer{
-  display: flex;
-  flex-direction: column;
-  color: $white;
-  
-}
-    
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
