@@ -7974,6 +7974,10 @@ html {
   font-size: 1.5rem;
   color: #6c757d; }
 
+html {
+  height: 100%;
+  scroll-padding-top: calc(2rem - 1px); }
+
 .masthead {
   padding-top: calc(1rem + 54px);
   padding-bottom: calc(1rem); }

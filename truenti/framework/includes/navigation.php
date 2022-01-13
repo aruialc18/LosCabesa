@@ -13,7 +13,7 @@
 
                 <li class="nav-item"><a class="nav-link" href="product.php">Compra Productos</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="product.php">Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="games.php">Juegos</a></li>
 
                 <li class="nav-item"><a class="nav-link" href="services.php">Servicios</a></li>
 
