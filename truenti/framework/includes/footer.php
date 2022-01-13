@@ -2,16 +2,21 @@
         <div class="container">
             <div class="row">
                 <!-- Footer Icono-->
-                <div class=" col-sm-0 col-lg-4  ">
+                <div class=" col-sm-0 col-lg-3  ">
                     <img  class="logo" src="assets/truenti/logo3.png"  />
                 </div>
                 <!-- Footer Quienes Somos-->
                 
-                    <div  class=" col-sm-0 col-lg-4   paddingss">
+                    <div  class=" col-sm-0 col-lg-3   paddingss">
                         <a href="contact.php">¿QUIÉNES SOMOS?</a>
                     </div>
+                     <!-- Footer Aviso Legal-->
+                     <div class="col-sm-0 col-lg-3 paddingss">
+                        <a href="avisolegal.php">AVISO LEGAL</a>
+                    </div>
+
                     <!-- Footer Unete-->
-                    <div class="col-sm-0 col-lg-4 paddingss">
+                    <div class="col-sm-0 col-lg-3 paddingss">
                         <a href="register.php">ÚNETE</a>
                     </div>
                     
