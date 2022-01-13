@@ -114,6 +114,7 @@
             <p>El establecimiento del hipervínculo no implicará la existencia de relaciones entre Truenti y el titular del
             sitio web desde el cual se realice, ni el conocimiento y aceptación de Truenti de los contenidos, servicios
             y/o actividades ofrecidos en dicho sitio web, y viceversa.</p>
+
             <h2>V. PROPIEDAD INTELECTUAL E INDUSTRIAL</h2>
             <p>Truenti por sí o como parte cesionaria, es titular de todos los derechos de propiedad intelectual e
             industrial del Sitio Web, así como de los elementos contenidos en el mismo (a título enunciativo y no
@@ -135,6 +136,57 @@
             violación de los derechos de protección de la propiedad intelectual, deberá comunicarlo inmediatamente a
             Truenti a través de los datos de contacto del apartado de INFORMACIÓN GENERAL de este Aviso Legal y
             Condiciones Generales de Uso.</p>
+
+            <h3>Copyright</h3>
+            <table>
+            <tr>
+                <th>Recurso multimedia</th>
+                <th>Utiidad</th>
+                <th>Licencia</th>
+            </tr>
+            <tr>
+                <td> <img  class="logo" src="assets/truenti/logo3.png"  /></td>
+                <td>Logo principal de la Web</td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/productos/proteina.jpg"  /></td>
+                <td>Logo juego Cristobal </td>
+                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+
+            </tr>
+
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+
+            </tr>
+
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+
+            </tr>
+
+
+
+
+            </table>
+
+
+
             <h2>VI. ACCIONES LEGALES, LEGISLACIÓN APLICABLE Y JURISDICCIÓN</h2>
             <p>Truenti se reserva la facultad de presentar las acciones civiles o penales que considere necesarias por la
             utilización indebida del Sitio Web y Contenidos, o por el incumplimiento de las presentes Condiciones.
