@@ -13,11 +13,21 @@
         <div class="container">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-uppercase  mb-0 text-align: left">Acerca de nosotros</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>
+¡Bienvenido a Truenti!
+
+Nuestro objetivo es ofrecer a nuestros clientes las últimas novedades de deporte y productos relacionados. Contamos con gran experiencia, por lo que sabemos exactamente qué necesitas al ofrecerte productos de alta calidad y a precios accesibles. Ofrecemos todo esto mientras brindamos un excelente servicio al cliente y un trato amable.
+
+Siempre vigilamos las mejores tendencias de productos para el gimnasio y ponemos en primer lugar los deseos de nuestros clientes. Es por eso que tenemos clientes satisfechos en todo el mundo y estamos encantados de ser parte de la industria del fitness.
+
+Los intereses de nuestros clientes son siempre la máxima prioridad para nosotros, por lo que esperamos que disfrutes de nuestros productos tanto como nosotros disfrutamos poniéndolos a tu disposición.
+</p>
            
             <br>
             <h2 class="page-section-heading text-uppercase  mb-0 text-align: left">Servicio de soporte y atención al cliente</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Truenti se compromete a asegurarse de que tenga toda la información que necesita, por lo que le proporcionamos un soporte técnico rapido y eficaz, a continuación,  para responder cualquier pregunta que pueda tener.
+
+Como siempre, si tiene otras dudas relacionadas con algún producto o servicio, comuníquese con nuestro equipo de servicio al cliente, que estará encantado de ayudarle.</p>
 
             <br>
             <h2 class="page-section-heading text-uppercase  mb-0 text-align: left">Formulario de contacto</h2>
