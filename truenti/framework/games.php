@@ -11,4 +11,8 @@
 <div class="container-fluid separatop">
     <div class="page-juegos">
     <h1>Truenti Games</h1>
+
+
+
+    </div>
 </div>

@@ -7978,6 +7978,13 @@ html {
   height: 100%;
   scroll-padding-top: calc(2rem - 1px); }
 
+.page-juegos {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .page-juegos h1, .page-juegos .h1 {
+    color: #1ed763; }
+
 .masthead {
   padding-top: calc(1rem + 54px);
   padding-bottom: calc(1rem); }

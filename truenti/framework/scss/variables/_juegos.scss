@@ -4,4 +4,10 @@ html {
 }
 
 .page-juegos {
+  h1 {
+    color: $primary;
+  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
