@@ -3,7 +3,7 @@ String.prototype.replaceAt = function (index, character) { return this.substr(0,
 
 
 //Array de palabras que van a salir aleatoriamente
-const palabras = ['casa', 'perro', 'gato', 'elefante'];
+const palabras = ['gimnasio', 'pesa', 'barra', 'dominada'];
 
 //Esto eligirá una palabra aleatoria del array de palabras
 const palabra = palabras[Math.floor(Math.random() * palabras.length)];
@@ -35,11 +35,11 @@ document.querySelector('#calcular').addEventListener('click', () => {
         document.querySelector('#ahorcado').style
             .backgroundPosition = -(307 * contadorFallos) + 'px 0';
         if (contadorFallos == 4) {
-            alert("casi")
+            alert("¡Has perdido!")
         }
     }else{
         if(palabraConGuiones.indexOf('_') < 0){
-            alert("has ganado")
+            alert("¡Has ganado!")
         }
     }
 
