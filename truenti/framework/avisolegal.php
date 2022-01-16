@@ -160,6 +160,27 @@
             </tr>
 
             <tr>
+                <td><img  class="logo"src="../assets/recursosjuegos/miniaturaadrian.png"  /></td>
+                <td>Logo juego Adrian </td>
+                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+                <td>Truenti</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/recursosjuegos/miniaturaantonio.png"  /></td>
+                <td>Logo juego Antonio </td>
+                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+                <td>Truenti</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/recursosjuegos/miniaturapablo.png"  /></td>
+                <td>Logo juego Pablo </td>
+                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+                <td>Truenti</td>
+            </tr>
+
+            <tr>
                 <td><img  class="logo"src="../assets/productos/proteina.jpg"  /></td>
                 <td>Imagen producto "Proteína de suero de leche"</td>
                 <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
