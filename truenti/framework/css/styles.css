@@ -7858,6 +7858,11 @@ html {
 .separatop {
   margin-top: 5rem; }
 
+table, th, td {
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center; }
+
 .page-section {
   height: 90vh;
   display: flex;

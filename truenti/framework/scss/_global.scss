@@ -32,6 +32,12 @@ html {
   margin-top: $navbar-height + 3rem;
 }
 
+table, th, td {
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+
 // Styling for page sections
 .page-section {
   height: 90vh;

@@ -138,7 +138,7 @@
             Condiciones Generales de Uso.</p>
 
             <h3>Copyright</h3>
-            <table>
+            <table class="tablalegal">
             <tr>
                 <th>Recurso multimedia</th>
                 <th>Utiidad</th>
@@ -205,10 +205,66 @@
             </tr>
 
             <tr>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td><img  class="logo"src="../assets/perfil/boxeo1.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
 
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo2.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo3.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo4.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo5.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo6.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo7.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo8.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/perfil/boxeo9.jpg"  /> </td>
+                <td>Imagen perfil de usuario </td>
+                <td> Pixabay License</td>
+                <td>Pixabay.com</td>
             </tr>
 
 
