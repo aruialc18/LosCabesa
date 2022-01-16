@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ruanox Game</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            background: rgb(221, 221, 221);
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Crea el elemento canvas -->
+    <canvas id="miCanvas" width="480" height="320"></canvas>
+
+    <script>
+        //creamos un objeto imagen y le definimos la ruta de nuestra imagen
+        imagenPelota= new Image();
+        imagenPelota.src="pelota.png";
+
+        imagenBarra= new Image();
+        imagenBarra.src="pesa.png";
+
+        imagenLadrillo = new Image();
+        imagenLadrillo.src ="barrita.png";
+
+
+        //llama al elemento canvas y permite pintar en el
+        var canvas = document.getElementById("miCanvas");
+        var ctx = canvas.getContext("2d");
+        //definimos el radio de la bola, para hacer que pueda rebotar
+        var radioBola = 20;
+
+        //utilizaremos estas variables para definir la posicion de la bola y conseguir darle movimiento
+        var x = canvas.width / 2;
+        var y = canvas.height - 30;
+        //Con estas dos variables vamos cambiando la posicion de la bola
+        var dx = 2;
+        var dy = -2;
+
+        //Definimos nuestro barra para que rebote la pelota
+        var paddleHeight = 30;
+        var paddleWidth = 100;
+        //con esto definimos la posicion en el eje x
+        var paddleX = (canvas.width - paddleWidth) / 2;
+        //Variables para controlar las pulsaciones del teclado
+        var rightPressed = false;
+        var leftPressed = false;
+
+        //Variables para definir los ladrillos, numero,filas,tamaño hy el espacio engtre ellos
+        var brickRowCount = 3;
+        var brickColumnCount = 5;
+        var brickWidth = 75;
+        var brickHeight = 20;
+        var brickPadding = 10;
+        var brickOffsetTop = 30;
+        var brickOffsetLeft = 30;
+
+        //Con esta variable guardamos los puntos del jugador para saber cuando ha ganado
+        var puntos = 0;
+
+        //Con esta  variable controlamos el numero de vidas que tiene el jugador
+        var vidas = 3;
+
+        //Guardaremos nuestros ladrillos en una matriz bidimensional que contendra las columnas (c) de los ladrillos
+        //Cada columna tendra toda la fila (r) de ladrillos
+
+        var ladrillos = [];
+        for (c = 0; c < brickColumnCount; c++) {
+            ladrillos[c] = [];
+            for (r = 0; r < brickRowCount; r++) {
+                ladrillos[c][r] = { x: 0, y: 0, status: 1 };
+            }
+        }
+        //detectar movimiento de las teclas
+        document.addEventListener("keydown", keyDownHandler, false);
+        document.addEventListener("keyup", keyUpHandler, false);
+
+        //detectar movimiento de raton para la barra
+        document.addEventListener("mousemove", mouseMoveHandler, false);
+        function mouseMoveHandler(e) {
+            var relativeX = e.clientX - canvas.offsetLeft;
+            if (relativeX > 0 && relativeX < canvas.width) {
+                paddleX = relativeX - paddleWidth / 2;
+            }
+        }
+
+
+        function keyDownHandler(e) {
+            if (e.keyCode == 39) {
+                rightPressed = true;
+            }
+            else if (e.keyCode == 37) {
+                leftPressed = true;
+            }
+        }
+        function keyUpHandler(e) {
+            if (e.keyCode == 39) {
+                rightPressed = false;
+            }
+            else if (e.keyCode == 37) {
+                leftPressed = false;
+            }
+        }
+
+
+
+        //funcion para conseguir que nuestra bola se repinte en cada fotograma, intervalo 10 milisegundos
+        function pintarBola() {
+            //con este metodo conseguimos pintar la bola en pantalla 
+            ctx.beginPath();
+            //ctx.arc(x, y, radioBola, 0, Math.PI * 2);
+            void ctx.drawImage(imagenPelota, x, y, radioBola*2, radioBola*2);
+            ctx.fillStyle = "#0095DD";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        function pintarBarra() {
+            //pintamos la barra en la pantalla
+            ctx.beginPath();
+            //ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
+            void ctx.drawImage(imagenBarra, paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight );
+            ctx.fillStyle = "#0095DD";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        function pintarLadrillos() {
+            //pintamos los ladrillos en pantalla
+            for (c = 0; c < brickColumnCount; c++) {
+                for (r = 0; r < brickRowCount; r++) {
+                    if (ladrillos[c][r].status == 1) {
+                        var brickX = (c * (brickWidth + brickPadding)) + brickOffsetLeft;
+                        var brickY = (r * (brickHeight + brickPadding)) + brickOffsetTop;
+                        ladrillos[c][r].x = brickX;
+                        ladrillos[c][r].y = brickY;
+                        ctx.beginPath();
+                        //ctx.rect(brickX, brickY, brickWidth, brickHeight);
+                        void ctx.drawImage(imagenLadrillo, brickX, brickY, brickWidth, brickHeight );
+                        ctx.fillStyle = "#0095DD";
+                        ctx.fill();
+                        ctx.closePath();
+                    }
+                }
+            }
+        }
+        //con esta funcion podemos tener las colisiones
+        function detectarColisiones() {
+            for (c = 0; c < brickColumnCount; c++) {
+                for (r = 0; r < brickRowCount; r++) {
+                    var b = ladrillos[c][r];
+                    if (b.status == 1) {
+                        if (x > b.x && x < b.x + brickWidth && y > b.y && y < b.y + brickHeight) {
+                            dy = -dy;
+                            b.status = 0;
+                            puntos++;
+                            if (puntos == brickRowCount * brickColumnCount) {
+                                alert("Has ganado bro");
+                                document.location.reload();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        function pintarPuntos() {
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "#FF2D00";
+            ctx.fillText("Puntos: " + puntos, 8, 20);
+        }
+
+        function pintarVidas() {
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "#00FF29";
+            ctx.fillText("Vidas: " + vidas, canvas.width - 65, 20);
+        }
+
+
+        function pintarCanvas() {
+            //limpiamos el canvas cada vez que llamamos al metodo
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            pintarLadrillos();
+            detectarColisiones();
+            pintarBola();
+            pintarBarra();
+            pintarPuntos();
+            pintarVidas();
+            //con esto comprobamos que la pelota este tocando con el borde superior,inferior, izquierda y derecha, si esta tocando
+            //invertimos el movimiento y hacemos que cambie de direccion
+            if (x + dx > canvas.width - radioBola || x + dx < radioBola) {
+                dx = -dx;
+            }
+            if (y + dy < radioBola) {
+                dy = -dy;
+            }
+            else if (y + dy > canvas.height - radioBola) {
+                if (x + (paddleWidth*0,1) > paddleX && x < paddleX + paddleWidth) {
+                    dy = -dy;
+                }
+                else {
+                    vidas--;
+                    if (!vidas) {
+                        alert("GAME OVER");
+                        document.location.reload();
+                    }
+
+                    else {
+                        x = canvas.width / 2;
+                        y = canvas.height - 30;
+                        dx = 2;
+                        dy = -2;
+                        paddleX = (canvas.width - paddleWidth) / 2;
+                    }
+                }
+            }
+
+            if (rightPressed && paddleX < canvas.width - paddleWidth) {
+                paddleX += 4;
+            }
+            else if (leftPressed && paddleX > 0) {
+                paddleX -= 4;
+            }
+
+            x += dx;
+            y += dy;
+            requestAnimationFrame(pintarCanvas);
+        }
+
+        pintarCanvas();
+
+    </script>
+
+</body>
+
+</html>
