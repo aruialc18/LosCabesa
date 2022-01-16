@@ -143,35 +143,66 @@
                 <th>Recurso multimedia</th>
                 <th>Utiidad</th>
                 <th>Licencia</th>
+                <th>Origen</th>
             </tr>
             <tr>
                 <td> <img  class="logo" src="assets/truenti/logo3.png"  /></td>
                 <td>Logo principal de la Web</td>
                 <td><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+                <td>Truenti</td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/recursosjuegos/miniaturacristobal.png"  /></td>
+                <td>Logo juego Cristobal </td>
+                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
+                <td>Truenti</td>
             </tr>
 
             <tr>
                 <td><img  class="logo"src="../assets/productos/proteina.jpg"  /></td>
-                <td>Logo juego Cristobal </td>
-                <td> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></td>
-
-            </tr>
-
-            <tr>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td>Imagen producto "Proteína de suero de leche"</td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
 
             </tr>
 
 
             <tr>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-
+                <td><img  class="logo"src="../assets/productos/peanutbutterb.jpg"  /></td>
+                <td>Imagen producto "Mantequilla de Cacahuete Natural"</td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
             </tr>
 
+
+            <tr>
+                <td><img  class="logo"src="../assets/productos/bcaa.jpg"  /> </td>
+                <td>Imagen producto "BCAA 2:1:1" </td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/productos/weight.jpg"  /> </td>
+                <td>Imagen producto "Mezcla Ganador de Peso" </td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/productos/galleta.jpg"  /> </td>
+                <td>Imagen producto "Brownie Proteico" </td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/productos/nutella.jpg"  /> </td>
+                <td>Imagen producto "Crema Proteica para Untar" </td>
+                <td><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a> </td>
+                <td> Juan García | Flickr </td>
+            </tr>
 
             <tr>
                 <td> </td>

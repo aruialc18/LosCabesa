@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-2">
 
-                    <img class="img-fluid imguser" src="assets/truenti/user.jpg" />
+                    <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
                 </div>
                 <div class="col-10 d-flex align-items-center">
                     <textarea rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
@@ -45,7 +45,7 @@
             <div class="row separatop">
                 <div class="col-2">
 
-                    <img class="img-fluid imguser" src="assets/truenti/user.jpg" />
+                    <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
 
                 </div><br>
 
@@ -84,7 +84,7 @@
 
             <div class="row separatop">
                 <div class="col-2">
-                    <img class="img-fluid imguser" src="assets/truenti/user.jpg" />
+                    <img class="img-fluid imguser" src="assets/perfil/boxeo3.jpg" />
                 </div>
                 <div class="col-10 d-flex align-items-center">
                     <textarea rows="4" cols="130"
