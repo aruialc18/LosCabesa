@@ -94,9 +94,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Work Sans";
   font-weight: 700;
   line-height: 1.2; }
-h1.h1video{
-  text-align: center;
-}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw); }
   @media (min-width: 1200px) {
@@ -7860,7 +7858,9 @@ html {
 .separatop {
   margin-top: 5rem; }
 
-table, th, td {
+table,
+th,
+td {
   padding: 15px;
   border: 1px solid black;
   text-align: center; }
@@ -7880,6 +7880,10 @@ table, th, td {
     padding-top: 0%;
     padding-left: 0%;
     text-align: center; } }
+
+.services img {
+  width: 500px;
+  height: 350px; }
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;

@@ -14,15 +14,14 @@ html {
 .imguser {
   border-radius: 2em;
 }
-.imgsperfil{
+.imgsperfil {
   max-width: 15em;
   border-radius: 0.5em;
 }
-.fotoperfil{
+.fotoperfil {
   max-width: 15em;
   border-radius: 0.5em;
 }
-
 
 .contact {
   padding-top: 10vh;
@@ -32,7 +31,9 @@ html {
   margin-top: $navbar-height + 3rem;
 }
 
-table, th, td {
+table,
+th,
+td {
   padding: 15px;
   border: 1px solid black;
   text-align: center;
@@ -56,5 +57,11 @@ table, th, td {
     padding-top: 0%;
     padding-left: 0%;
     text-align: center;
+  }
+}
+.services {
+  img {
+    width: 500px;
+    height: 350px;
   }
 }
