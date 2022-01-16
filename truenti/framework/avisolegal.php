@@ -267,6 +267,48 @@
                 <td>Pixabay.com</td>
             </tr>
 
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/boxeo.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>Nicolas Celaya | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/crossfit.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>Nicolas Celaya | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/dieta.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>food-salad-healthy-vegetables-1 | Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/entrenamientopersonal.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>Ortus Fitness| Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/yoga.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>Syed Shameel| Flickr </td>
+            </tr>
+
+            <tr>
+                <td><img  class="logo"src="../assets/servicios/zumba.png"  /> </td>
+                <td>Imagen página servicios </td>
+                <td><a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a></td>
+                <td>USDA Rural Development| Flickr </td>
+            </tr>
+
 
 
 
