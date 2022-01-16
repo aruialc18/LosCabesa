@@ -7,6 +7,9 @@
     <title>Document</title>
     <?php include("includes/head-tag-contents.php");?>
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <?php include("includes/navigation.php");?>
@@ -73,5 +76,32 @@
             </div>
         </div>
     </div>
+
+    <h1 class="h1video">Video deporte motivacional</h1>
+	<div class="d-flex justify-content-center">
+		<div class="embed-responsive embed-responsive-16by9  w-75">
+			<iframe class="embed-resposive-item" src="../assets/videos/deporte.mp4"></iframe>
+		</div>
+	</div>
+	
+<!--
+    <div id="video-container">
+		<video id="video" width="640" height="365">
+		  <source src="../assets/videos/deporte.mp4" type="video/mp4">
+		  <p>
+		    Your browser doesn't support HTML5 video.
+		    <a href="../assets/videos/deporte.mp4">Download</a> the video instead.
+		  </p>
+		</video>
+		<div id="video-controls">
+			<button type="button" id="play-pause" class="play">Play</button>
+			<progress id="seek-bar" value="0" max="100"></progress>
+			<button type="button" id="mute">Mute</button>
+			<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+			<button type="button" id="full-screen">Full-Screen</button>
+		</div>
+	</div>
+
+	<script src="../js/scripts.js"></script>-->
 </body>
 </html>
