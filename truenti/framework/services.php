@@ -55,7 +55,7 @@
                                 <h4 class="card-title">Servicio de Dietas</h4>
                                 <p class="card-text">Contrata un servicio de dietista para encontrar el equilibrio entre salud, hábitos deportivos y dieta.</p>
                                  <h4 class="card-title">20€</h4>
-                                <a href="#" class="btn btn-primary">Compra rápida</a>
+                                <a href="#" class="btn btn-primary">Solicitar Servicio</a>
                             </div>
                     </div>      
                 </div>
