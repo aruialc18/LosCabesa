@@ -44,9 +44,9 @@
             <div class="col-md-3 text-center">
                 <div class="card">
                     <h2>Juego Adri</h2>
-                    <img class="card-img-top" src="../assets/recursosjuegos/miniaturaadri.png" alt="Card image">
+                    <img class="card-img-top" src="../assets/recursosjuegos/miniaturaadrian.png" alt="Card image">
                     <div class="card-body">
-                        <a href="./juegos/adri/index.html" class="btn btn-primary">Jugar</a>
+                        <a href="./juegos/adrianblancas/index.html" class="btn btn-primary">Jugar</a>
                     </div>
                 </div>
             </div>
