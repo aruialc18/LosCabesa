@@ -20,4 +20,5 @@
 			$CURRENT_PAGE = "Login";
 			$PAGE_TITLE = "Truenti";
 	}
+	//require_once("vendor\google\apiclient\src\Google\autoload.php");
 ?>
