@@ -3,8 +3,10 @@
 <html lang="en">
 <head>
 <?php include("includes/head-tag-contents.php");?>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
+<meta name="google-signin-client_id" content="74470804683-ngl75vk760od6dap34bpd7snjvduamb5.apps.googleusercontent.com">
     
             <div class="container-fluid page-section  " style="background-image: url(/assets/truenti/fondo2.png); " >
                 <div class="row">
@@ -17,10 +19,15 @@
                             <input type="text" name="user" class="form-control-sm" placeholder="Usuario"><br><br>
                             <input type="password" name="pass" class="form-control-sm" placeholder="Contraseña"><br><br>
                             <input class="bg-secondary form-control-sm" type="submit" name="entrar" value="Entrar"><br><br>
+                            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                            
                             <h>¿Aún no tienes cuenta? <a href="register.php">Regístrate</a></h2>
                          </form>
                          
                      </div>
+                     
+                     
+                     
                      
                 </div>
              </div>
@@ -36,5 +43,6 @@ if (isset($_POST['entrar']))
 {   
    header("Location: home.php");  
  }
+ 
 
 ?>
