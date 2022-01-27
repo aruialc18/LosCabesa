@@ -1,11 +1,15 @@
-<?php include("includes/a_config.php");?> 
+<?php include("includes/a_config.php");
+include("includes/cookies.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php include("includes/head-tag-contents.php");?>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="js/gestioncookies.js"></script>
 </head>
 <body>
+<?=$advice;?>
 <meta name="google-signin-client_id" content="74470804683-ngl75vk760od6dap34bpd7snjvduamb5.apps.googleusercontent.com">
     
             <div class="container-fluid page-section  " style="background-image: url(/assets/truenti/fondo2.png); " >
