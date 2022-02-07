@@ -1,4 +1,6 @@
 <?php
+
+
 	switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/login.php":
 			$CURRENT_PAGE = "login"; 
@@ -21,6 +23,7 @@
 			$PAGE_TITLE = "Truenti";
 	}
 	//Include Google Client Library for PHP autoload file
+	session_start();
 require_once 'vendor/autoload.php';
 
 //Make object of Google API Client for call Google API

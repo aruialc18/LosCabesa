@@ -1,13 +1,11 @@
 <?php
 
-
- session_start();
  require_once("includes/a_config.php");
 
 // Datos para conectar a la base de datos.
 $nombreServidor = "localhost";
-$nombreUsuario = "ruanox";
-$passwordBaseDeDatos = "ruanox";
+$nombreUsuario = "pablo";
+$passwordBaseDeDatos = "1234";
 $nombreBaseDeDatos = "loscabesa";
 
 // Crear conexión con la base de datos.
@@ -90,7 +88,7 @@ if ($conn ->connect_error) {
  // Verificando si el usuario existe en la base de datos.
  if($resultado->num_rows > 0){
    // Guardo en la sesión el email del usuario.
-   $_SESSION['user'] = $email;
+   $_SESSION['correo_electronico'] = $email;
     
    // Redirecciono al usuario a la página principal del sitio.
    header("HTTP/1.1 302 Moved Temporarily"); 
