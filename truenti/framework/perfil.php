@@ -17,7 +17,10 @@
         <div class="row">
             <div class="col-sm-4 text-center"><img src="../assets/perfil/boxeo1.jpg" class="imgsperfil">
             <br>
-            <p>Nombre de usuario<p>
+            <?php if (isset($_SESSION['correo_electronico']))  {
+                 ?>
+            <p><?php echo $_SESSION['correo_electronico']; ?><p>
+            <?php }?>
             <p>XP:</p>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
