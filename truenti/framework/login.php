@@ -4,8 +4,8 @@
 
 // Datos para conectar a la base de datos.
 $nombreServidor = "localhost";
-$nombreUsuario = "pablo";
-$passwordBaseDeDatos = "1234";
+$nombreUsuario = "root";
+$passwordBaseDeDatos = "";
 $nombreBaseDeDatos = "loscabesa";
 
 // Crear conexión con la base de datos.
@@ -89,7 +89,8 @@ if ($conn ->connect_error) {
  if($resultado->num_rows > 0){
    // Guardo en la sesión el email del usuario.
    $_SESSION['correo_electronico'] = $email;
-    
+   $row = $resultado->fetch_assoc();
+   $_SESSION['id_usuario'] =$row['id'];
    // Redirecciono al usuario a la página principal del sitio.
    header("HTTP/1.1 302 Moved Temporarily"); 
    header("Location: home.php"); 

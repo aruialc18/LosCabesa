@@ -10,7 +10,7 @@ include("includes/a_config.php");?>
 
 <body>
     <?php include("includes/navigation.php");?>
-    <form>
+    <form action="insertarcomentario.php" method="POST">
         <div class="container-fluid separatop ">
 
             <div class="row">
@@ -19,7 +19,7 @@ include("includes/a_config.php");?>
                     <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
                 </div>
                 <div class="col-10 d-flex align-items-center">
-                    <textarea rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
+                    <textarea id="post" rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
                 </div>
                 <div class="row">
                     <div class="col-sm-5  text-center">
