@@ -39,7 +39,7 @@ include("includes/cookies.php");
                            ?>
                             
                             
-                            <h>¿Aún no tienes cuenta? <a href="register.php">Regístrate</a></h2>
+                           <br> <h>¿Aún no tienes cuenta? <a href="register.php">Regístrate</a></h2>
                          </form>
                          
                      </div>
