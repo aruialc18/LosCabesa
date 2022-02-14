@@ -10,7 +10,7 @@ include("includes/a_config.php");?>
 
 <body>
     <?php include("includes/navigation.php");?>
-    <form action="insertarcomentario.php" method="POST">
+    <div>
         <div class="container-fluid separatop ">
 
             <div class="row">
@@ -18,30 +18,33 @@ include("includes/a_config.php");?>
 
                     <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
                 </div>
-                <div class="col-10 d-flex align-items-center">
-                    <textarea id="post" rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
-                </div>
-                <div class="row">
-                    <div class="col-sm-5  text-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-images" viewBox="0 0 16 16">
-                            <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                            <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
-                        </svg>
-
+                <form action="insertarpost.php" method="POST">
+                    <div class="col-10 d-flex align-items-center">
+                        <textarea name="publi" rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="row">
+                        <div class="col-sm-5  text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-images" viewBox="0 0 16 16">
+                                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                <path
+                                    d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
+                            </svg>
 
-                    </div>
-                    <div class="col-sm-2 ">
-                        <input 
-                            class="bg-primary form-control-sm" type="submit" value="Enviar">
-                        </input>
+                        </div>
 
+                        <div class="col-sm-5">
+
+                        </div>
+                        <div class="col-sm-2 ">
+                            <input class="bg-primary form-control-sm" type="submit" value="Enviar">
+                            </input>
+
+                        </div>
                     </div>
-                </div>
 
             </div>
+            </form>
             <hr />
 
             <div class="row separatop">
@@ -49,8 +52,7 @@ include("includes/a_config.php");?>
                     <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
                 </div><br>
                 <div class="col-10 d-flex align-items-center">
-                    <textarea rows="4" cols="130" placeholder="Usuario0239: Me gusta mucho el deporte jeje"
-                        readonly>
+                    <textarea rows="4" cols="130" placeholder="Usuario0239: Me gusta mucho el deporte jeje" readonly>
                     </textarea>
                 </div>
                 <div class="row">
@@ -120,7 +122,7 @@ include("includes/a_config.php");?>
 
         </div>
 
-    </form>
+    </div>
 
 </body>
 
