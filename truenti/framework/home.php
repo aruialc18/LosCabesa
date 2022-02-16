@@ -15,6 +15,7 @@ include("includes/a_config.php");?>
 
             <div class="row">
                 <div class="col-2">
+               
 
                     <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
                 </div>
