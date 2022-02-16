@@ -4,13 +4,8 @@
 
 // Datos para conectar a la base de datos.
 $nombreServidor = "localhost";
-<<<<<<< HEAD
-$nombreUsuario = "ruanox";
-$passwordBaseDeDatos = "ruanox";
-=======
 $nombreUsuario = "root";
 $passwordBaseDeDatos = "";
->>>>>>> 5ab5d0a750c0be78674c849abef76a87d38a010e
 $nombreBaseDeDatos = "loscabesa";
 
 // Crear conexión con la base de datos.
