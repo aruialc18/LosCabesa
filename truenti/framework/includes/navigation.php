@@ -1,3 +1,6 @@
+<?php
+
+include("includes/a_config.php");?>
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-black fixed-top text-uppercase " id="mainNav">
     <div class="container-fluid">
@@ -18,9 +21,8 @@
 
                 <li class="nav-item"><a class="nav-link" href="services.php">Servicios</a></li>
                 <?php if (isset($_SESSION['correo_electronico']))  {
-                    
                  ?>
-                <li class="nav-item"><a class="nav-link " href="perfil.php"><?php echo $_SESSION['correo_electronico']; ?></a></li>
+                <li class="nav-item"><a class="nav-link" href="perfil.php"><?php echo $_SESSION['correo_electronico']; ?></a></li>
                 <?php }?>
                 
                 <li class="nav-item"><a class="nav-link " href="logout.php"><button type="button"
