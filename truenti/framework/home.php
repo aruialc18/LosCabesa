@@ -13,10 +13,8 @@ include("includes/a_config.php");?>
     <div>
         <div class="container-fluid separatop ">
 
-            <div class="row">
+            <div class="row separatop">
                 <div class="col-2">
-               
-
                     <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
                 </div>
                 <form action="insertarpost.php" method="POST">
