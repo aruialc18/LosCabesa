@@ -10,7 +10,11 @@
 html {
   height: 100%;
   scroll-padding-top: calc(#{$navbar-height} - 1px);
+  
 }
+
+
+
 .imguser {
   border-radius: 2em;
 }
@@ -29,6 +33,10 @@ html {
 
 .separatop {
   margin-top: $navbar-height + 3rem;
+}
+
+hr{
+  color:$primary;
 }
 
 table,
