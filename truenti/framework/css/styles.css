@@ -94,9 +94,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Work Sans";
   font-weight: 700;
   line-height: 1.2; }
-.h1video {
-  text-align: center;
-}
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw); }
@@ -7861,6 +7858,9 @@ html {
 .separatop {
   margin-top: 5rem; }
 
+hr {
+  color: #1ed763; }
+
 table,
 th,
 td {
@@ -7887,6 +7887,10 @@ td {
 .services img {
   width: 500px;
   height: 350px; }
+
+.googlebtn {
+  width: 100px;
+  height: 30px; }
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
