@@ -1,4 +1,18 @@
 <?php
+session_start();
+// Datos para conectar a la base de datos.
+$nombreServidor = "localhost";
+$nombreUsuario = "root";
+$passwordBaseDeDatos = "";
+$nombreBaseDeDatos = "loscabesa";
+
+// Crear conexión con la base de datos.
+$conn = new mysqli($nombreServidor, $nombreUsuario, $passwordBaseDeDatos, $nombreBaseDeDatos);
+ 
+// Validar la conexión de base de datos.
+if ($conn ->connect_error) {
+  die("Connection failed: " . $conn ->connect_error);
+}
 
 include("includes/a_config.php");?>
 <!DOCTYPE html>
@@ -6,23 +20,24 @@ include("includes/a_config.php");?>
 
 <head>
     <?php include("includes/head-tag-contents.php");?>
+    <?php include("includes/navigation.php");?>
 </head>
 
 <body>
-    <?php include("includes/navigation.php");?>
+    
     <div>
         <div class="container-fluid separatop ">
 
             <div class="row separatop">
                 <div class="col-2">
-                    <img class="img-fluid imguser" src="assets/perfil/boxeo1.jpg" />
+                    <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
                 </div>
                 <form action="insertarpost.php" method="POST">
                     <div class="col-10 d-flex align-items-center">
                         <textarea name="publi" rows="4" cols="130" placeholder="Escribe aqui tus progresos..."></textarea>
                     </div>
                     <div class="row">
-                        <div class="col-sm-5  text-center">
+                        <div class="col-sm-4  text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-images" viewBox="0 0 16 16">
                                 <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
@@ -32,8 +47,8 @@ include("includes/a_config.php");?>
 
                         </div>
 
-                        <div class="col-sm-5">
-
+                        <div class="col-sm-4">
+                           
                         </div>
                         <div class="col-sm-2 ">
                             <input class="bg-primary form-control-sm" type="submit" value="Enviar">
@@ -41,20 +56,42 @@ include("includes/a_config.php");?>
 
                         </div>
                     </div>
+                    </form>
 
             </div>
-            </form>
+            
             <hr />
 
-            <div class="row separatop">
-                <div class="col-2">
-                    <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
-                </div><br>
-                <div class="col-10 d-flex align-items-center">
-                    <textarea rows="4" cols="130" placeholder="Usuario0239: Me gusta mucho el deporte jeje" readonly>
-                    </textarea>
-                </div>
-                <div class="row">
+            
+
+            <br>
+            <?php
+            $registros = mysqli_query($conn,"SELECT post FROM publicaciones order by id desc ")or die ("Problemas al realizar la consulta");
+            
+            
+
+            while($reg = mysqli_fetch_array($registros)){
+                $post2=$reg['post'];
+                ?>
+            
+                <div class='row separatop'>
+               
+                
+
+                    <div class='col-2'>
+                        <img class='img-fluid imguser' src='assets/perfil/boxeo3.jpg'/>
+                    </div>
+
+                    <div class='col-10 d-flex align-items-center'>
+
+
+
+                        <?php echo "<textarea readonly rows='4' cols='130' "."placeholder='".$post2."'>"."</textarea>";?>
+
+
+
+                    </div>
+                    <div class="row">
                     <div class="col-md-5  text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-heart" viewBox="0 0 16 16">
@@ -78,7 +115,22 @@ include("includes/a_config.php");?>
                     </div>
                 </div>
 
+                    
+
+                </div>
+
             </div>
+
+
+              
+               
+           <?php }
+            
+            
+            
+            mysqli_close($conn);
+
+            ?>
 
             <br>
 

@@ -1,6 +1,4 @@
 <?php
-
-
 	switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/login.php":
 			$CURRENT_PAGE = "login"; 
@@ -12,7 +10,7 @@
 			break;
 		case "/product.php":
 			$CURRENT_PAGE = "poduct"; 
-			$PAGE_TITLE = "Productos y Servicios	";
+			$PAGE_TITLE = "Productos y Servicios";
 			break;
 			case "/register.php":
 				$CURRENT_PAGE = "register"; 
