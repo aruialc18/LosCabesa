@@ -7855,6 +7855,9 @@ html {
 .contact {
   padding-top: 10vh; }
 
+#publi {
+  visibility: hidden; }
+
 .separatop {
   margin-top: 5rem; }
 

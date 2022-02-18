@@ -10,10 +10,7 @@
 html {
   height: 100%;
   scroll-padding-top: calc(#{$navbar-height} - 1px);
-  
 }
-
-
 
 .imguser {
   border-radius: 2em;
@@ -30,13 +27,15 @@ html {
 .contact {
   padding-top: 10vh;
 }
-
+#publi {
+  visibility: hidden;
+}
 .separatop {
   margin-top: $navbar-height + 3rem;
 }
 
-hr{
-  color:$primary;
+hr {
+  color: $primary;
 }
 
 table,
@@ -73,4 +72,7 @@ td {
     height: 350px;
   }
 }
-.googlebtn{width:100px;height:30px;}
+.googlebtn {
+  width: 100px;
+  height: 30px;
+}
