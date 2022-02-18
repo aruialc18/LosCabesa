@@ -23,7 +23,14 @@ if ($conn ->connect_error) {
                      $usuario = $_POST['usuario']; 
                      $password = $_POST['password']; 
                      $correo = $_POST['correo'];
-                     $sql = "INSERT INTO usuario (username,password,correo_electronico) VALUES ('$usuario','$password', '$correo')"; 
+                     $nombre = $_POST['nombre'];
+                     $apellido1 = $_POST['apellido1'];
+                     $apellido2 = $_POST['apellido2'];
+                     $fecha = $_POST['fecha'];
+                     $pais = $_POST['pais'];
+                     $postal = $_POST['postal'];
+
+                     $sql = "INSERT INTO usuario (correo_electronico,username,password,nombre,apellido1,apellido2,fecha_nacimiento,pais,cp) VALUES ('$correo', '$usuario', '$password', '$nombre', '$apellido1', '$apellido2', '$fecha', '$pais', '$postal')"; 
                      $conn->query($sql);
                      header("Location: index.php");
                  } 
