@@ -76,7 +76,7 @@ include("includes/a_config.php");?>
                     <img class='img-fluid imguser' src='assets/perfil/boxeo3.jpg' />
                 </div>
 
-                <div class='col-10 d-flex align-items-center'>
+                <div class='col-9 d-flex align-items-center'>
 
 
 
@@ -85,6 +85,7 @@ include("includes/a_config.php");?>
 
 
                 </div>
+            </div>
                 <div class="row">
                     <div class="col-md-5  text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -108,10 +109,6 @@ include("includes/a_config.php");?>
                         </svg>
                     </div>
                 </div>
-
-
-
-            </div>
             <br>
             <hr>
             <br>

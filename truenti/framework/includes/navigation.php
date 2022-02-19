@@ -1,6 +1,8 @@
 <?php
 
-include("includes/a_config.php");?>
+include("includes/a_config.php");
+if (isset($_SESSION['correo_electronico'])){ ?>
+
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-black fixed-top text-uppercase " id="mainNav">
     <div class="container-fluid">
@@ -31,3 +33,7 @@ include("includes/a_config.php");?>
         </div>
     </div>
 </nav>
+
+<?php
+}
+?>

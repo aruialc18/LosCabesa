@@ -13,12 +13,12 @@ include("includes/cookies.php");
 <?=$advice;?>
 
     
-            <div class="container-fluid page-section  " style="background-image: url(/assets/truenti/fondo2.png); " >
+            <div class=" truenti container-fluid page-section  " >
                 <div class="row">
-                     <div class="col-sm-12 col-md-6">
+                     <div class="col-sm-6">
                         <img class=" logo-login img-fluid" src="/assets/truenti/rayo2.png">
                      </div>
-                    <div class="col-sm-12  col-lg-6">
+                    <div class="col-sm-6">
                        <h1>Inicio de Sesión</h1>
                         <form  method="POST" action="login.php" class="form-login"  >
                             <input type="text" name="user" class="form-control-sm" placeholder="Usuario"><br><br>

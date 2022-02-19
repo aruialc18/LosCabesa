@@ -6,12 +6,12 @@
 </head>
 <body>
     
-            <div class="container-fluid page-section  " style="background-image: url(/assets/truenti/fondo2.png); " >
+            <div class="truenti container-fluid page-section  ">
                 <div class="row">
-                     <div class="col-sm-12 col-md-6">
+                     <div class="col-sm-6">
                         <img class=" logo-login" src="/assets/truenti/rayo2.png">
                      </div>
-                    <div class="col-sm-12  col-md-6">
+                    <div class="col-sm-6">
                        <h1>Registro</h1>
                         <form action="registeruser.php" method="POST" class="form-login">
                             <input type="text" name="usuario" class="form-control-sm" placeholder="Usuario">
@@ -31,7 +31,8 @@
                      
                 </div>
              </div>
-             <?php include("includes/footer.php");?>
+            <?php include("includes/footer.php");?>
+             
 
       
 </body>

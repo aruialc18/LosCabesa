@@ -11,7 +11,9 @@ html {
   height: 100%;
   scroll-padding-top: calc(#{$navbar-height} - 1px);
 }
-
+.truenti {
+  background-image: url(/assets/truenti/fondo2.png);
+}
 .imguser {
   border-radius: 2em;
 }
@@ -64,6 +66,14 @@ td {
     padding-top: 0%;
     padding-left: 0%;
     text-align: center;
+    .logo-login {
+      width: 30%;
+      height: auto;
+    }
+  }
+  .googlebtn {
+    width: 10%;
+    height: auto;
   }
 }
 .services {
@@ -71,8 +81,4 @@ td {
     width: 500px;
     height: 350px;
   }
-}
-.googlebtn {
-  width: 100px;
-  height: 30px;
 }
