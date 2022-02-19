@@ -1,4 +1,7 @@
-<?php include("includes/a_config.php");?>
+<?php
+
+include("includes/a_config.php");
+if (isset($_SESSION['correo_electronico'])){ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,3 +95,8 @@
 
 </body>
 </html>
+<?php
+}else{
+    header("Location: index.php");
+}
+?>

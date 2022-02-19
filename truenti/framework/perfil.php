@@ -1,3 +1,7 @@
+<?php
+
+include("includes/a_config.php");
+if (isset($_SESSION['correo_electronico'])){ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,3 +112,8 @@
 	<script src="../js/scripts.js"></script>-->
 </body>
 </html>
+<?php
+}else{
+    header("Location: index.php");
+}
+?>

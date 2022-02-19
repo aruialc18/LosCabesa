@@ -12,7 +12,11 @@ $conn = new mysqli($nombreServidor, $nombreUsuario, $passwordBaseDeDatos, $nombr
 // Validar la conexión de base de datos.
 if ($conn ->connect_error) {
   die("Connection failed: " . $conn ->connect_error);
-}
+} ?>
+
+<?php 
+
+if(isset($_SESSION['correo_electronico'])){
 
 include("includes/a_config.php");?>
 <!DOCTYPE html>
@@ -136,4 +140,7 @@ include("includes/a_config.php");?>
 
 </body>
 
-</html>
+</html>   <?php
+}else{
+    header("Location: index.php");
+}
