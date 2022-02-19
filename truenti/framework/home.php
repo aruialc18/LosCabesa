@@ -27,28 +27,27 @@ include("includes/a_config.php");?>
 <form action="insertarpost.php" method="POST">
     <div>
     
-        <div class="container-fluid separatop ">
+        <div class="container-fluid separatop">
 
-            <div class="row separatop">
+            <div class="row">
                 <div class="col-2">
                     <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
                 </div>
                 
-                    <div class="col-10 d-flex align-items-center">
+                    <div class="col-10 d-flex">
                     <?php include("includes/quill.php");?>
                     </div>
                     <div class="row">
                         <div class="col-sm-5  text-center">
-                            
+                            <input id="publi" name="publi" type="text"></input>
                         </div>
 
                         <div  class="col-sm-5">
-                        <input id="publi" name="publi" type="text"></input>
+                        
                         </div>
                         <div class="col-sm-2 ">
                             <input class="bg-primary form-control-sm" type="submit" value="Enviar" onclick="JavaScript: document.getElementById('publi').value =quill.root.innerHTML;">
                             </input>
-
                         </div>
                     </div>
                 </form>

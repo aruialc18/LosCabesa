@@ -34,11 +34,12 @@
 
 <style>
   body > #standalone-container {
-    margin: 50px auto;
-    max-width: 720px;
+    
+    width: 100%;
   }
   #editor-container {
-    height: 350px;
+    height: 100%;
+    width: 70vw;
   }
 </style>
 
@@ -48,10 +49,7 @@
   
 <div id="standalone-container">
   <div id="toolbar-container">
-    <span class="ql-formats">
-      <select class="ql-font"></select>
-      <select class="ql-size"></select>
-    </span>
+    
     <span class="ql-formats">
       <button class="ql-bold"></button>
       <button class="ql-italic"></button>
@@ -69,18 +67,6 @@
     <span class="ql-formats">
       <button class="ql-header" value="1"></button>
       <button class="ql-header" value="2"></button>
-      <button class="ql-blockquote"></button>
-      <button class="ql-code-block"></button>
-    </span>
-    <span class="ql-formats">
-      <button class="ql-list" value="ordered"></button>
-      <button class="ql-list" value="bullet"></button>
-      <button class="ql-indent" value="-1"></button>
-      <button class="ql-indent" value="+1"></button>
-    </span>
-    <span class="ql-formats">
-      <button class="ql-direction" value="rtl"></button>
-      <select class="ql-align"></select>
     </span>
     <span class="ql-formats">
       <button class="ql-link"></button>
@@ -88,9 +74,7 @@
       <button class="ql-video"></button>
       <button class="ql-formula"></button>
     </span>
-    <span class="ql-formats">
-      <button class="ql-clean"></button>
-    </span>
+    
   </div>
   <div id="editor-container"></div>
 </div>
@@ -106,11 +90,11 @@
 <script>
   var quill = new Quill('#editor-container', {
     modules: {
-      formula: true,
+      formula: false,
       syntax: true,
       toolbar: '#toolbar-container'
     },
-    placeholder: 'Compose an epic...',
+    placeholder: 'Escribe aquí tus progresos...',
     theme: 'snow'
   });
 </script>
