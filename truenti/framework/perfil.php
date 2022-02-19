@@ -83,7 +83,7 @@
     <h1 class="h1video">Video deporte motivacional</h1>
 	<div class="d-flex justify-content-center">
 		<div class="embed-responsive embed-responsive-16by9  w-75">
-			<iframe class="embed-resposive-item" src="../assets/videos/deporte.mp4"></iframe>
+			<iframe class="embed-resposive-item" src="../assets/video/videos/deporte.mp4"></iframe>
 		</div>
 	</div>
 	

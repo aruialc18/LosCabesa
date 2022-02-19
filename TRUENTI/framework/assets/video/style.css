@@ -1,0 +1,42 @@
+#video-container {
+	width: 640px;
+	height: 365px;
+	position: relative;
+}
+
+#video-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	opacity: 0;
+	transition: opacity .3s;
+	background-color: #ea2175;
+    
+}
+
+#video-container:hover #video-controls {
+	opacity: .9;
+}
+
+button {
+	background: #1ed763;
+	border: 0;
+	color: #EEE;
+	border-radius: 3px;
+	padding-top:5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#seek-bar {
+	width: 360px;
+    background-color: red;	
+}
+
+#volume-bar {
+	width: 60px;
+}
