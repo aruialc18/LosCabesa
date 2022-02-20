@@ -7,6 +7,7 @@ if (isset($_SESSION['correo_electronico'])){ ?>
 <head>
 	<?php include("includes/head-tag-contents.php");?>
 </head>
+<script type="text/javascript" src="js\likes.js"></script>
 <body>
 
 <?php include("includes/navigation.php");?>

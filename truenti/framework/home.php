@@ -19,6 +19,7 @@ if ($conn ->connect_error) {
 if(isset($_SESSION['correo_electronico'])){
 
 include("includes/a_config.php");?>
+
 <!DOCTYPE html>
 <html>
 
@@ -26,8 +27,8 @@ include("includes/a_config.php");?>
         <?php include("includes/head-tag-contents.php");?>
         <?php include("includes/navigation.php");?>
     </head>
-
-    <body>
+    <body class="home">
+    
         <div class="container-fluid separatop">
             <form action="insertarpost.php" method="POST">
                 <div class="row">
@@ -44,7 +45,7 @@ include("includes/a_config.php");?>
                         </div>
                         <div  class="col-sm-5"></div>
                         <div class="col-sm-2 ">
-                            <input class="bg-primary form-control-sm" type="submit" value="Enviar" onclick="JavaScript: if(quill.root.innerHTML!=' '){  document.getElementById('publi').value =quill.root.innerHTML;}">
+                            <input class="bg-primary form-control-sm" type="submit" value="Enviar" onclick="JavaScript: document.getElementById('publi').value =quill.root.innerHTML;">
                             </input>
                         </div>
                     </div>
@@ -53,7 +54,7 @@ include("includes/a_config.php");?>
         <hr>
         <br>
             <?php
-            $registros = mysqli_query($conn,"SELECT post FROM publicaciones order by id desc ")or die ("Problemas al realizar la consulta");
+            $registros = mysqli_query($conn,"SELECT post, likes, id, dislikes FROM publicaciones order by id desc ")or die ("Problemas al realizar la consulta");
             
             while($reg = mysqli_fetch_array($registros)){
                 $post2=$reg['post'];
@@ -68,15 +69,21 @@ include("includes/a_config.php");?>
             </div>
                 <div class="row">
                 
-                    <div class="col-md-4  text-center">
-                        <p>
-
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-heart" viewBox="0 0 16 16">
-                            <path
-                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    <div class="col-md-5 text-center">
+                        <?php echo "".$reg['likes'];?>
+                        <a class="like" href="megusta.php?n=si&id=<?php echo $reg['id'];?>">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                         </svg>
+                        </a>
+                    </div>
+                    <div class="col-md-5 text-center">
+                    <?php echo "".$reg['dislikes'];?>
+                    <a class="like" href="megusta.php?n=no&id=<?php echo $reg['id'];?>">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heartbreak-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.931.586 7 3l1.5 4-2 3L8 15C22.534 5.396 13.757-2.21 8.931.586ZM7.358.77 5.5 3 7 7l-1.5 3 1.815 4.537C-6.533 4.96 2.685-2.467 7.358.77Z"/>
+                        </svg>
+                        </a>
                     </div>
                 </div>
             <br>
@@ -89,6 +96,7 @@ include("includes/a_config.php");?>
         ?>
         <br>
         </div>
+        
     </body>
 </html>   
 <?php

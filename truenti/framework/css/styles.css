@@ -12968,6 +12968,12 @@ td {
   width: 500px;
   height: 350px; }
 
+.home .like {
+  color: black; }
+
+.home .like:hover {
+  color: #ea2176; }
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;

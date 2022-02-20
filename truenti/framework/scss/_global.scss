@@ -82,3 +82,11 @@ td {
     height: 350px;
   }
 }
+.home {
+  .like {
+    color: black;
+  }
+  .like:hover {
+    color: $secondary;
+  }
+}
