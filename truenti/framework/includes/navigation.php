@@ -26,7 +26,7 @@ if (isset($_SESSION['correo_electronico'])){ ?>
                  ?>
                 <li class="nav-item"><a class="nav-link" href="perfil.php"><?php echo $_SESSION['correo_electronico']; ?></a></li>
                 <?php }?>
-                
+                <li class="nav-item"><a class="nav-link" href="crud.php">Crud</a></li>
                 <li class="nav-item"><a class="nav-link " href="logout.php"><button type="button"
                             class="btn btn-primary">Cerrar Sesion</button></a></li>
             </ul>
