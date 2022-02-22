@@ -3,7 +3,6 @@
 include("includes/a_config.php");
 if (isset($_SESSION['correo_electronico'])){ ?>
 
-
 <nav class="navbar navbar-expand-sm navbar-dark bg-black fixed-top text-uppercase " id="mainNav">
     <div class="container-fluid">
         <a class="navbar-brand"><img src="assets/truenti/logo3.png" style="width: 100px;"></a>
@@ -26,7 +25,10 @@ if (isset($_SESSION['correo_electronico'])){ ?>
                  ?>
                 <li class="nav-item"><a class="nav-link" href="perfil.php"><?php echo $_SESSION['correo_electronico']; ?></a></li>
                 <?php }?>
+                <?php if (isset($_SESSION['correo_electronico']))  {
+                 ?>
                 <li class="nav-item"><a class="nav-link" href="crud.php">Crud</a></li>
+                <?php } ?>
                 <li class="nav-item"><a class="nav-link " href="logout.php"><button type="button"
                             class="btn btn-primary">Cerrar Sesion</button></a></li>
             </ul>
