@@ -25,7 +25,7 @@ if (isset($_SESSION['correo_electronico'])){ ?>
                  ?>
                 <li class="nav-item"><a class="nav-link" href="perfil.php"><?php echo $_SESSION['correo_electronico']; ?></a></li>
                 <?php }?>
-                <?php if (isset($_SESSION['correo_electronico']))  {
+                <?php if (($_SESSION['rol_usuario'])=='Admin')  {
                  ?>
                 <li class="nav-item"><a class="nav-link" href="crud.php">Crud</a></li>
                 <?php } ?>

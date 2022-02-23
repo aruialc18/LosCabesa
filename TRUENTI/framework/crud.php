@@ -3,7 +3,10 @@ include("includes/a_config.php");
 include 'conex.php';
 
 ?>
-<?php if (isset($_SESSION['correo_electronico']))  {
+<?php if (isset($_SESSION['id_usuario']))  {
+  if($_SESSION['rol_usuario']=='Admin'){
+
+  
                  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -83,5 +86,6 @@ include 'conex.php';
 </body>
 
 </html>
-
-<?php } ?>
+<?php } else {
+  header('Location:home.php');
+}} ?>

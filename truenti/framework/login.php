@@ -90,6 +90,7 @@ if ($conn ->connect_error) {
    // Guardo en la sesión el email del usuario.
    $_SESSION['correo_electronico'] = $email;
    $row = $resultado->fetch_assoc();
+   $_SESSION['rol_usuario'] =$row['rol'];
    $_SESSION['id_usuario'] =$row['id'];
    // Redirecciono al usuario a la página principal del sitio.
    header("HTTP/1.1 302 Moved Temporarily"); 
