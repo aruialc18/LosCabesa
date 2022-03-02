@@ -3,7 +3,7 @@
 include("includes/a_config.php");
 if (isset($_SESSION['correo_electronico'])){ ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<?php include("includes/head-tag-contents.php");?>
 </head>
