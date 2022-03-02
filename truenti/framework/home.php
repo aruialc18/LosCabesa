@@ -26,21 +26,30 @@ include("includes/a_config.php");?>
         <?php include("includes/head-tag-contents.php");?>
         <?php include("includes/navigation.php");?>
     </head>
+
     <body class="home">
     
+    
         <div class="container-fluid separatop">
+          
             <form action="insertarpost.php" method="POST">
+            
                 <div class="row">
                     <div class="col-2">
-                        <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" />
+                        <img class="img-fluid imguser" src="assets/perfil/boxeo2.jpg" alt='img' />
                     </div>
                     <div class="col-10 d-flex">
                         <?php include("includes/quill.php");?>
                     </div>
                 </div><br><br>
+               
                     <div class="row">
                         <div class="col-sm-5  text-center">
-                            <input id="publi" name="publi" type="text"></input>
+                        
+
+                            <label class="sr-only" for="publi">publicar</label>
+                            <input id="publi" name="publi" type="text"></input> 
+                            
                         </div>
                         <div  class="col-sm-5"></div>
                         <div class="col-sm-2 ">
@@ -48,7 +57,9 @@ include("includes/a_config.php");?>
                             </input>
                         </div>
                     </div>
+                   
             </form>
+
         </div>  
         <hr>
         <br>
@@ -60,15 +71,16 @@ include("includes/a_config.php");?>
                 ?>
             <div class='row '>
                 <div class='col-2'>
-                    <img class='img-fluid imguser' src='assets/perfil/boxeo3.jpg' />
+                    <img class='img-fluid imguser' src='assets/perfil/boxeo3.jpg' alt='img'/>
                 </div>
                 <div class='col-9 d-flex align-items-center'>
                     <?php echo "<p>".$post2.""."</p>";?>
                 </div>
             </div>
                 <div class="row">
-                
+
                     <div class="col-md-5 text-center">
+                    <label class="sr-only" for="like">like</label>
                         <?php echo "".$reg['likes'];?>
                         <a class="like" href="megusta.php?n=si&id=<?php echo $reg['id'];?>">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
