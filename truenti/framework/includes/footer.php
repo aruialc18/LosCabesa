@@ -3,7 +3,7 @@
             <div class="row">
                 <!-- Footer Icono-->
                 <div class=" col-sm-0 col-lg-3  ">
-                   <a href="index.php"><img  class="logo" src="assets/truenti/logo3.png"/></a>
+                   <a href="index.php" ><span class="sr-only">logo</span><img alt="logofooter"  class="logo" src="assets/truenti/logo3.png"/></a>
                 </div>
                 <!-- Footer Quienes Somos-->
                 

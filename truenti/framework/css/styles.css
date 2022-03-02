@@ -12974,6 +12974,9 @@ td {
 .home .like:hover {
   color: #ea2176; }
 
+a .registrate {
+  color: black; }
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -13129,7 +13132,7 @@ html {
   overflow: hidden; }
 
 .form-login a {
-  color: #ea2176; }
+  color: black; }
 
 .portfolio-modal .btn-close {
   color: #1ed763;
